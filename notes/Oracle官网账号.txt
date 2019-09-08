@@ -1,0 +1,21 @@
+18672766561@126.com
+
+zhangHUAN5652314
+
+
+
+
+
+Oracle 数据库配置：
+sys  /  zhangHUAN123456
+
+
+https://localhost:5500/em
+
+
+
+启用hr并设置密码；
+
+alter user hr identified by zhangHUAN123456;
+
+alter user hr account unlock;
