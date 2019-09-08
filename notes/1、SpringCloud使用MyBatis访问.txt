@@ -1,0 +1,10 @@
+Maven仓库：https://mvnrepository.com
+
+1、驱动包
+<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc8 -->
+<dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc8</artifactId>
+    <version>18.5.0.0.0</version>
+    <scope>provided</scope>
+</dependency>
