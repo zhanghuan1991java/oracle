@@ -8,3 +8,6 @@ Maven仓库：https://mvnrepository.com
     <version>18.5.0.0.0</version>
     <scope>provided</scope>
 </dependency>
+
+2、把oracle驱动加到本地仓库：
+mvn     install:install-file     -Dfile=E:\ojdbc8.jar    -DgroupId=com.oracle    -DartifactId=ojdbc8     -Dversion=18.5.0.0.0     -Dpackaging=jar
